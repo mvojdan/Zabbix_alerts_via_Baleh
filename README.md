@@ -24,7 +24,7 @@ The `<CHAT_ID>` above is what you need. It's the `RESULT.result[0].message.chat.
 
 Test that it actually works:
 
-    $ curl -X POST --retry 5 --retry-delay 0 --retry-max-time 60 --data-urlencode "chat_id=${CHAT_ID}" --data-urlencode "text=Hello" "https://api.telegram.org/bot${TOKEN}/sendMessage?disable_web_page_preview=true"
+    $ curl -X POST --retry 5 --retry-delay 0 --retry-max-time 60 --data-urlencode "chat_id=${CHAT_ID}" --data-urlencode "text=Hello" "https://tapi.bale.ai/bot${TOKEN}/sendMessage?disable_web_page_preview=true"
 
 ## Install zabbix media type
 
