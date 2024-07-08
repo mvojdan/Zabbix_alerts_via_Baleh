@@ -30,7 +30,7 @@ Test that it actually works:
 
 Find out your `AlertScriptsPath` from the `zabbix_server.conf`. It's `${datadir}/zabbix/alertscripts` by default.
 
-Put the `Baleh.sh` file (attached) to that folder. Don't forget to `chmod +x telegram.sh`
+Put the `Baleh.sh` file (attached) to that folder. Don't forget to `chmod +x Baleh.sh`
 
 Open your Zabbix web interface, navigate to 'Administration - Media types - Create',  
 Put in the form:
